@@ -1,7 +1,7 @@
 # 一、 前言
 RecyclerView是谷歌V7包下新增的控件,用来替代ListView、GridView的使用.
 
-#### 要点：
+##### 要点：
 - LayoutManager：布局管理器,目前SDK中提供了三种自带的LayoutManager:
       LinearLayoutManager-----类似ListView
       GridLayoutManager-----类似GridView
@@ -23,7 +23,7 @@ dependencies {
 }
 ```
 
-##### 主布局文件：activity_main.xml
+##### 主布局文件：activity_main.xml
 ```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -45,7 +45,7 @@ dependencies {
 </RelativeLayout>
 ```
 
-##### 子布局文件：rv_item_book.xml
+##### 子布局文件：rv_item_book.xml
 ```java
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -62,7 +62,7 @@ dependencies {
 </LinearLayout>
 ```
 
-##### ViewHolder文件：BookViewHolder
+##### ViewHolder文件：BookViewHolder
 ```java
 public class BookViewHolder extends RecyclerView.ViewHolder {
 ​
@@ -74,7 +74,7 @@ public class BookViewHolder extends RecyclerView.ViewHolder {
    }
 }
 ```
-##### 适配器：BookRecyclerViewAdapter
+##### 适配器：BookRecyclerViewAdapter
 ```java
 public class BookRecyclerViewAdapter extends RecyclerView.Adapter<BookViewHolder> {
 ​
@@ -110,7 +110,7 @@ public class BookRecyclerViewAdapter extends RecyclerView.Adapter<BookViewHolder
    }
 }
 ```
-##### 主界面：MainActivity
+##### 主界面：MainActivity
 ```java
 public class MainActivity extends AppCompatActivity {
     private RecyclerView rebook;
