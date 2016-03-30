@@ -1,7 +1,7 @@
 # 一、 前言
 RecyclerView是谷歌V7包下新增的控件,用来替代ListView、GridView的使用.
 
-##### 要点：
+#### 要点：
 - LayoutManager：布局管理器,目前SDK中提供了三种自带的LayoutManager:
       LinearLayoutManager-----类似ListView
       GridLayoutManager-----类似GridView
