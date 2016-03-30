@@ -15,7 +15,7 @@ RecyclerView是谷歌V7包下新增的控件,用来替代ListView、GridView的�
 - SDK: Android 23
 
 # 三、使用
-##### 配置：build.gradle
+##### 配置：build.gradle
 ```java
 dependencies {
     ...
